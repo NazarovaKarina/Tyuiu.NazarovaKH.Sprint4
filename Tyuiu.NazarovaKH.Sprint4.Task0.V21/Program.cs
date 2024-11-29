@@ -9,7 +9,7 @@ namespace Tyuiu.NazarovaKH.Sprint4.Task0.V21
             DataService ds = new DataService();
 
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("* Исходные данные                                                              *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                              *");
             Console.WriteLine("********************************************************************************");
 
             int[] sumArray = { 8, 2, 4, 3, 8, 5, 6, 7, 9, 8 };
@@ -22,12 +22,10 @@ namespace Tyuiu.NazarovaKH.Sprint4.Task0.V21
             }
 
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("* Результат:                                                                   *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
 
             Console.WriteLine("Результующий массив");
-
-
             int res = ds.GetSumEvenArrEl(sumArray);
             for (int i = 0; i < sumArray.Length; i++)
             {
